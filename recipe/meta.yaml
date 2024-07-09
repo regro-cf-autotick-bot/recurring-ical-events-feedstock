@@ -33,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - tzdata
 
 about:
   home: https://github.com/niccokunzmann/python-recurring-ical-events
