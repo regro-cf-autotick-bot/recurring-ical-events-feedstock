@@ -24,6 +24,7 @@ requirements:
     - pytz >=2023.3
     - python-dateutil >=2.8.1
     - x-wr-timezone <1.0.0
+    - tzdata >=2024a
 
 test:
   imports:
