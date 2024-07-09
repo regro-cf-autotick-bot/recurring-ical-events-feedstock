@@ -22,12 +22,8 @@ requirements:
     - icalendar >=5.0.0,<7.0.0
     - python-dateutil >=2.8.1,<3.0.0
     - x-wr-timezone ==0.*
-    - {{% if python == "3.7" or python == "3.8" %}}
-      backports.zoneinfo
-      {{% endif %}}
-    - {{% if python >= "3.7" %}}
-      tzdata
-      {{% endif %}}
+    - backports.zoneinfo >= 0.2.1
+    - tzdata >= 2024a
 
 test:
   imports:
