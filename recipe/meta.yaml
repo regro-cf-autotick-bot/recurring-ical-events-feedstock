@@ -1,5 +1,5 @@
 {% set name = "recurring-ical-events" %}
-{% set version = "3.4.1" %}
+{% set version = "3.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/recurring_ical_events-{{ version }}.tar.gz
-  sha256: fb94c5caeccb71e776f5f30b95ed90562ababaa3beac0334df87426b2b90c898
+  sha256: a5b61918a14dc842d23b4929bcd99123aaeaae296f99b3adb0fec6f405bc53f4
 
 build:
   noarch: python
